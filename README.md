@@ -11,7 +11,7 @@ The list below consists of the essential software apps, plugins and command line
  - [design+code overview on Sketch](https://designcode.io/sketch)
  - [Useful Sketch Links](http://bohemiancoding.com/sketch/community/)
 - [Adobe Creative Cloud](http://www.adobe.com)
-- [Google Helpers](#)
+- Google Helpers:
  - [Google Chrome Canary](https://www.google.com/chrome/browser/canary.html)
  - [Chrome App Launcher](https://chrome.google.com/webstore/launcher)
  - [Google Drive](https://www.google.com/drive/download/)
