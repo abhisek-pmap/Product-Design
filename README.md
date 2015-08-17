@@ -10,6 +10,8 @@ The list below consists of the essential software apps, plugins and command line
 
 We encourage you to install the following by yourself - just follow the list - so you get familiar with what the tools you will have at your disposal.
 
+# Command Line Accelerators
+
 ## 1. Install Xcode
 Xcode is Apple's development environment for creating apps. Download it from:
 [http://developer.apple.com/xcode](http://developer.apple.com/xcode)
@@ -85,9 +87,9 @@ Install Bower through `npm` as follows:
 ```
 curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | sh
 ```
-- [list item](#)
-- [list item](#)
+---
 
+# Desktop Applications
 
 
 ###  Apps
@@ -108,18 +110,18 @@ curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | 
 
 
 #### Apps Under Evaluation
+Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
+
 - [Slack](https://slack.com/) - a badass chat platform for internal team communications
  - [9 Slack Hacks We Couldn't Live Without](https://keen.io/blog/105456820166/9-slack-hacks-we-couldnt-live-without)
  - [13 cool things you might not know you can do with Slack](http://thenextweb.com/apps/2015/02/05/13-cool-things-might-not-know-can-slack/)
  - [17 Slack integrations to spice up your team communication](http://wpcurve.com/slack-integrations/)
-- [list item](#)
 
 ###  Browser Plugins
-- [list item](#)
-- [list item](#)
-- [list item](#)
+Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
 
 ###  Prototyping Tools
-- [list item](#)
-- [list item](#)
-- [list item](#)
+Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
+
+---
+#### Not the End... more to come for sure.
