@@ -27,7 +27,7 @@ Homebrew will make the installation process easier.
 
 Open `Terminal` and enter the following command:
 
-    ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)" 
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
 
 - Press ENTER to continue.
 - Enter System Password (your login password) 
