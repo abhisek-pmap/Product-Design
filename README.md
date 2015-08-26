@@ -18,7 +18,9 @@ Xcode is Apple's development environment for creating apps. Download it from:
 
 	You must agree to the license by opening Xcode.app before proceeding.
 
-The next set of applications will require the use of `Terminal`. 
+The next set of commands and applications will require the use of `Terminal`. Install the Command Line Tools from Xcode:
+
+	xcode-select --install
 
 ## 2. Homebrew - Package Manager
 Homebrew [http://brew.sh](http://brew.sh) is a package management system that simplifies the installation of software on the Mac OS X operating system.  
