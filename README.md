@@ -36,7 +36,9 @@ Open `Terminal` and enter the following command:
 - After installation is complete, be sure to run the following command:
     
     `brew doctor`
-	
+
+Wait for the message: `Your system is ready to brew.` and you are good to start **installing Git**.
+
 
 ## 3. Git - Source Control
 Git is a distributed version control and source code management (SCM) system with an emphasis on speed. Now that you’ve got Homebrew installed, use it to install Git from within your `Terminal` by entering the following command line:
