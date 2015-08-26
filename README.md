@@ -45,7 +45,9 @@ Git is a distributed version control and source code management (SCM) system wit
 
 	brew install git
 
-The Git installation is straightforward. 
+The Git installation is straightforward, but to confirm, test the install with the following command, to check Git's version:
+
+	git version
 
 ## 4. Node.Js - Low-level Server Platform
 Node.js is a software platform that is used to build scalable network applications. Node.js utilizes JavaScript as its scripting language, and achieves high throughput via non-blocking I/O and a single-threaded event loop.
