@@ -123,6 +123,7 @@ Install Bower through `npm` as follows:
 #### Apps Under Evaluation
 Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
 
+- [Principle](http://principleformac.com) - Principle makes it easy to create animated and interactive user interface designs. Whether you're designing the flow of a multi-screen app, or new interactions and animations, Principle lets you create designs that look and feel amazing.
 - [Slack](https://slack.com/) - a badass chat platform for internal team communications
  - [9 Slack Hacks We Couldn't Live Without](https://keen.io/blog/105456820166/9-slack-hacks-we-couldnt-live-without)
  - [13 cool things you might not know you can do with Slack](http://thenextweb.com/apps/2015/02/05/13-cool-things-might-not-know-can-slack/)
