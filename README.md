@@ -132,6 +132,9 @@ Expecting team recommendations, please [post your suggestions here](https://gith
 ###  Browser Plugins
 Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
 
+- Google Chrome
+	- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?utm_source=chrome-ntp-icon) - Takes a full page screen capture of your current browser window.
+
 ###  Prototyping Tools
 Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
 
