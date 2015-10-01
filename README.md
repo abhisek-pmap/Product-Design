@@ -2,7 +2,7 @@
 Design Team Sandbox including Tools, Tricks, Gists, Markdowns, etc.
 
 >#### Important Note:
-> If you haven't done so, please create a new github account with your username ending with "**-pmap**", e.g., "jsmith-pmap", so we can invite you to collaborate in our repositories. 
+> If you haven't done so, please create a new github account with your username ending with "**-pmap**", e.g., "jsmith-pmap", so we can invite you to collaborate in our repositories.
 
 
 ## Basic Software Configuration
@@ -25,16 +25,16 @@ The next set of commands and applications will require the use of `Terminal`. In
 ## 2. Homebrew - Package Manager
 Homebrew [http://brew.sh](http://brew.sh) is a package management system that simplifies the installation of software on the Mac OS X operating system.  
 
-Homebrew will make the installation process easier. 
+Homebrew will make the installation process easier.
 
 Open `Terminal` and enter the following command:
 
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 - Press ENTER to continue.
-- Enter System Password (your login password) 
+- Enter System Password (your login password)
 - After installation is complete, be sure to run the following command:
-    
+
     `brew doctor`
 
 Wait for the message: `Your system is ready to brew.` and you are good to start **installing Git**.
@@ -48,7 +48,7 @@ Git is a distributed version control and source code management (SCM) system wit
 The Git installation is straightforward, but to confirm, test the install with the following command, to check Git's version:
 
 	git version
-	
+
 ### Git links:
 
 - https://help.github.com/articles/good-resources-for-learning-git-and-github/
@@ -90,11 +90,11 @@ Bower is THE Package Manager to have if you want to manage installation dependen
 Install Bower through `npm` as follows:
 
 	sudo npm install -g bower
-    
-## 6. Web Font Load 
+
+## 6. Web Font Load
 
 - Easily install ALL of [Google's Web Fonts](https://www.google.com/fonts) using the command line below. Learn more about this command on [qrpike's GitHub](https://github.com/qrpike/Web-Font-Load) in your terminal:
-``` 
+```
 	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | sh
 ```
 
@@ -113,7 +113,7 @@ Install Bower through `npm` as follows:
  - [Google Chrome Canary](https://www.google.com/chrome/browser/canary.html)
  - [Chrome App Launcher](https://chrome.google.com/webstore/launcher)
  - [Google Drive](https://www.google.com/drive/download/)
-- [Brackets](http://brackets.io/) - Code editor with live browser preview and updates without a server (requires Chrome) 
+- [Brackets](http://brackets.io/) - Code editor with live browser preview and updates without a server (requires Chrome)
 - [Git](https://git-scm.com/) - for designers ;-)
  - [Learn git](http://try.github.com/)
 - [GitHub for Mac](https://desktop.github.com/) - Git client for those not fond of the command line geekness.
@@ -134,6 +134,23 @@ Expecting team recommendations, please [post your suggestions here](https://gith
 
 ###  Prototyping Tools
 Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
+
+### Atom Text Editor Packages (optional but recommended)
+- [Linter](https://atom.io/packages/linter) - Allows you to easily visualize errors and other messages.
+
+- [Linter Tidy](https://atom.io/packages/linter-tidy) - Will 'lint' your `.html` opened files in Atom.
+
+- CSS Color Pickers
+	- [Web Box Color](https://atom.io/packages/webbox-color) - Simple CSS color viewer.
+	- [Color Picker](https://atom.io/packages/color-picker) - Another color viewer; reads HEX, RGB, RGBa, among others and is able to convert between formats.
+
+- Git
+	- [Git Blame](https://atom.io/packages/git-blame) - Annotations for files.
+	- [Git Context](https://atom.io/packages/tualo-git-context) - Adds basic Git commands to the file tree menu.
+	- [Git History](https://atom.io/packages/git-history) - View previous versions of any file known to Git.
+	- [Git Log](https://atom.io/packages/git-log) - Shows a graph of your Git commits and other commit related information.
+
+- [Terminal Panel](https://atom.io/packages/terminal-panel) - Executes your commands and displays the output.
 
 ---
 #### Not the End... more to come for sure.
