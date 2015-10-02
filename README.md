@@ -139,6 +139,8 @@ Expecting team recommendations, please [post your suggestions here](https://gith
 Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
 
 ### Atom Text Editor Packages (optional but recommended)
+- [Atom Beautify](https://atom.io/packages/atom-beautify) - Cleans up the formatting of HTML, CSS, JavaScript, etc. code in Atom.
+
 - [Linter](https://atom.io/packages/linter) - Allows you to easily visualize errors and other messages.
 
 - [Linter Tidy](https://atom.io/packages/linter-tidy) - Will 'lint' your `.html` opened files in Atom.
