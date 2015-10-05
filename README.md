@@ -134,6 +134,7 @@ Expecting team recommendations, please [post your suggestions here](https://gith
 
 - Google Chrome
 	- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?utm_source=chrome-ntp-icon) - Takes a full page screen capture of your current browser window.
+	- [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?utm_source=chrome-ntp-icon) - Provides browser integration for LiveReload applications.
 
 ###  Prototyping Tools
 Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
@@ -156,6 +157,9 @@ Expecting team recommendations, please [post your suggestions here](https://gith
 	- [Git Log](https://atom.io/packages/git-log) - Shows a graph of your Git commits and other commit related information.
 
 - [Terminal Panel](https://atom.io/packages/terminal-panel) - Executes your commands and displays the output.
+	- Install httpster (simple local static development server) `npm install -g httpster`
+	- Choose the port `$ httpster -p (number here, e.g. 8800)`
+	- Reload Atom and enable LiveReload on Chrome Browser
 
 ---
 #### Not the End... more to come for sure.
