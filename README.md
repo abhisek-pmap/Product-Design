@@ -136,6 +136,10 @@ Expecting team recommendations, please [post your suggestions here](https://gith
 	- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?utm_source=chrome-ntp-icon) - Takes a full page screen capture of your current browser window.
 	- [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?utm_source=chrome-ntp-icon) - Provides browser integration for LiveReload applications.
 
+### Compiling Tools
+
+- [LiveReload](http://livereload.com/) - Preprocesses files as soon as it is saved and the browser is instantly updated without reloading the page.
+
 ###  Prototyping Tools
 Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
 
