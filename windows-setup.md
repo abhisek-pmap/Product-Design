@@ -18,7 +18,7 @@ We encourage you to install the following by yourself - just follow the list - s
 * Make sure you have PowerShell 3 installed first by going to  [here](http://www.microsoft.com/en-us/download/details.aspx?id=34595). Then, open Windows PowerShell and enter the following command to update the execution policy **(Note: Do NOT do this on servers)**:
 
 ```
-set-executionpolicy unrestricted -s cu`
+set-executionpolicy unrestricted -s cu
 ```
 
 * Scoop [http://scoop.sh/](http://scoop.sh/) is a package management system that simplifies the installation of software on the Windows operating system. Install Scoop by entering the following command.
@@ -49,7 +49,7 @@ You can install Git by typing in `scoop install git` in Windows PowerShell, or y
     - Use MinTTY (the default terminal of MSys2)
 
 * Ensure that Git is installed by running the following in the command line.
-	- `git version`
+	 `git version`
 
 ### Git links:
 
