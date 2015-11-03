@@ -18,13 +18,13 @@ We encourage you to install the following by yourself - just follow the list - s
 * Make sure you have PowerShell 3 installed first by going to  [here](http://www.microsoft.com/en-us/download/details.aspx?id=34595). Then, open Windows PowerShell and enter the following command to update the execution policy **(Note: Do NOT do this on servers)**:
 
 ```
-set-executionpolicy unrestricted -s cu
+	set-executionpolicy unrestricted -s cu
 ```
 
 * Scoop [http://scoop.sh/](http://scoop.sh/) is a package management system that simplifies the installation of software on the Windows operating system. Install Scoop by entering the following command.
 
 ```
-iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+	iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 
 - Press ENTER to continue. 
@@ -32,7 +32,7 @@ iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 - After installation is complete, be sure to run the following command:
 
 ```
-scoop install 7zip coreutils curl git grep openssh sed wget vim grep
+	scoop install 7zip coreutils curl git grep openssh sed wget vim grep
 ```
 
 ## 2. Git - Source Control
@@ -87,8 +87,29 @@ NPM is a NodeJS package manager. As its name would imply, you can use it to inst
 
 ##### Read more about updating Node and NPM [here](http://blog.teamtreehouse.com/install-node-js-npm-windows).
 
+## 5. Gulp - JavaScript Task Runner
 
-## 5. Bower - The Package Manager for the Web
+Gulp is a JS task runner that lets you automate tasks such as:
+- Bundling and minifying libraries and stylesheets
+- Less/Sass to CSS compilation
+- Refreshing your browser when you save a file
+- Quickly running unit tests and running code analysis
+- Copying modified files to an output directory
+
+Type in the following into the command line:
+```
+	npm install -g gulp
+```
+
+The **-g** is an _optional_ flag used to signify that we want to install this package globally so that any project can use it. Check the command line to ensure that there are no error messages. Type in the following in the command line:
+```
+	gulp -v
+```
+
+You should see something similar to `CLI version 3.9.0` and `Local version 3.9.0`.
+
+
+## 6. Bower - The Package Manager for the Web
 Bower [http://bower.io](http://bower.io) is a package manager for the web. It offers a generic, unopinionated solution to the problem of front-end package management, while exposing the package dependency model via an API that can be consumed by a more opinionated build stack. There are no system wide dependencies, no dependencies are shared between different apps, and the dependency tree is flat.
 
 Bower is THE Package Manager to have if you want to manage installation dependencies for web development components, like AngulaJs, jQuery, etc.
@@ -97,7 +118,7 @@ Install Bower through `npm` as follows:
 
 	sudo npm install -g bower
 
-## 6. Sass - Stylesheet Language
+## 7. Sass - Stylesheet Language
 
 In order to install Sass (a Ruby gem), you need to first install Ruby on Windows [here](http://rubyinstaller.org/). **When going through the installation wizard, select only the middle option to 'Add Ruby executables to your PATH'**. Otherwise, you will get an error message stating that Ruby is not recognized as an internal or external command when you try to install Sass in the command prompt.
 
@@ -113,6 +134,7 @@ Ensure that Sass is installed by running the following in the command line:
 ```
 
 You should see something similar to `Sass 3.4.19 (Selective Steve)`.
+
 
 ---
 
