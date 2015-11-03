@@ -97,17 +97,45 @@ Install Bower through `npm` as follows:
 
 	sudo npm install -g bower
 
-## 6. Web Font Load
+## 6. Sass - Stylesheet Language
 
-- Easily install ALL of [Google's Web Fonts](https://www.google.com/fonts) using the command line below. Learn more about this command on [qrpike's GitHub](https://github.com/qrpike/Web-Font-Load) in your terminal:
+In order to install Sass (a Ruby gem), you need to first install Ruby on Windows [here](http://rubyinstaller.org/). **When going through the installation wizard, select only the middle option to 'Add Ruby executables to your PATH'**. Otherwise, you will get an error message stating that Ruby is not recognized as an internal or external command when you try to install Sass in the command prompt.
+
+Open up the command prompt (cmd) and type in the following:
 ```
-	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | sh
+	gem install sass
 ```
+Hit Enter/Return and wait for Sass to be installed.
+
 
 ---
 
 # Desktop Applications
 
+### Text Editor
+- [Atom Text Editor](https://atom.io/) is a modern text editor that works across operating systems, has a built-in package manager, and helps you write code faster with smart autocompletion.
+
+#### Atom Text Editor Packages (optional but highly recommended)
+- [Atom Beautify](https://atom.io/packages/atom-beautify) - Cleans up the formatting of HTML, CSS, JavaScript, etc. code in Atom.
+
+- [Linter](https://atom.io/packages/linter) - Allows you to easily visualize errors and other messages.
+
+- [Linter Tidy](https://atom.io/packages/linter-tidy) - Will 'lint' your `.html` opened files in Atom.
+
+- CSS Color Pickers
+	- [Web Box Color](https://atom.io/packages/webbox-color) - Simple CSS color viewer.
+	- [Color Picker](https://atom.io/packages/color-picker) - Another color viewer; reads HEX, RGB, RGBa, among others and is able to convert between formats.
+
+- Git
+	- [Git Blame](https://atom.io/packages/git-blame) - Annotations for files.
+	- [Git Context](https://atom.io/packages/tualo-git-context) - Adds basic Git commands to the file tree menu.
+	- [Git History](https://atom.io/packages/git-history) - View previous versions of any file known to Git.
+	- [Git Log](https://atom.io/packages/git-log) - Shows a graph of your Git commits and other commit related information.
+
+- [Terminal Panel](https://atom.io/packages/terminal-panel) - Executes your commands and displays the output.
+	- Install httpster (simple local static development server) `npm install -g httpster`
+	- Choose the port `$ httpster -p (number here, e.g. 8800)`
+	- Reload Atom and enable LiveReload on Chrome Browser
 
 ###  Apps
 - [Sketch App](http://bohemiancoding.com/sketch/) by Bohemian Coding
@@ -149,24 +177,3 @@ Expecting team recommendations, please [post your suggestions here](https://gith
 ###  Prototyping Tools
 Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
 
-### Atom Text Editor Packages (optional but recommended)
-- [Atom Beautify](https://atom.io/packages/atom-beautify) - Cleans up the formatting of HTML, CSS, JavaScript, etc. code in Atom.
-
-- [Linter](https://atom.io/packages/linter) - Allows you to easily visualize errors and other messages.
-
-- [Linter Tidy](https://atom.io/packages/linter-tidy) - Will 'lint' your `.html` opened files in Atom.
-
-- CSS Color Pickers
-	- [Web Box Color](https://atom.io/packages/webbox-color) - Simple CSS color viewer.
-	- [Color Picker](https://atom.io/packages/color-picker) - Another color viewer; reads HEX, RGB, RGBa, among others and is able to convert between formats.
-
-- Git
-	- [Git Blame](https://atom.io/packages/git-blame) - Annotations for files.
-	- [Git Context](https://atom.io/packages/tualo-git-context) - Adds basic Git commands to the file tree menu.
-	- [Git History](https://atom.io/packages/git-history) - View previous versions of any file known to Git.
-	- [Git Log](https://atom.io/packages/git-log) - Shows a graph of your Git commits and other commit related information.
-
-- [Terminal Panel](https://atom.io/packages/terminal-panel) - Executes your commands and displays the output.
-	- Install httpster (simple local static development server) `npm install -g httpster`
-	- Choose the port `$ httpster -p (number here, e.g. 8800)`
-	- Reload Atom and enable LiveReload on Chrome Browser
