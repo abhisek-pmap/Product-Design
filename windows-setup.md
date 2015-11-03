@@ -66,13 +66,13 @@ Run the installer (the .msi file that you downloaded from the Node.js site) and 
 ```
 	node -v 
 ```
-which should print a version number, so you'll see something similar to v4.2.1.
+which should print a version number, so you'll see something similar to `v4.2.1`.
 
 **Test NPM** - Node Package Management (NPM) is also installed with Node. Check the latest version of NPM by typing in the following in the command line:
 ```
 	npm -v 
 ```
-which should print a version number, so you'll see something similar to v2.14.7.
+which should print a version number, so you'll see something similar to `v2.14.7`.
 
 >### Important Note About NPM
 NPM is a NodeJS package manager. As its name would imply, you can use it to install node programs. Also, if you use it in development, it makes it easier to specify and link dependencies.
@@ -107,6 +107,12 @@ Open up the command prompt (cmd) and type in the following:
 ```
 Hit Enter/Return and wait for Sass to be installed.
 
+Ensure that Sass is installed by running the following in the command line: 
+```
+	sass -v
+```
+
+You should see something similar to `Sass 3.4.19 (Selective Steve)`.
 
 ---
 
