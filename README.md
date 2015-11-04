@@ -1,6 +1,8 @@
 # Design Team
 Design Team Sandbox including Tools, Tricks, Gists, Markdowns, etc.
 
+These are the directions for setting up the dev environment for those who are using Mac computers. If you are using a Windows computer, refer to the README file [here](https://github.com/ProcessMAP/Design-Team/blob/master/windows-setup.md).
+
 >#### Important Note:
 > If you haven't done so, please create a new github account with your username ending with "**-pmap**", e.g., "jsmith-pmap", so we can invite you to collaborate in our repositories.
 
@@ -81,8 +83,27 @@ NPM is a NodeJS package manager. As its name would imply, you can use it to inst
 
 > That sets your user account as the owner of the /usr/local directory, so that you can just issue normal commands in there. Then you won't ever have to use sudo when you install node or issue npm commands.
 
+## 5. Gulp - JavaScript Task Runner
 
-## 5. Bower - The Package Manager for the Web
+Gulp is a JS task runner that lets you automate tasks such as:
+- Bundling and minifying libraries and stylesheets
+- Less/Sass to CSS compilation
+- Refreshing your browser when you save a file
+- Quickly running unit tests and running code analysis
+- Copying modified files to an output directory
+
+Type in the following into the command line:
+```
+	npm install -g gulp
+```
+which should print a version number, so you'll see something similar to `CLI version 3.9.0`.
+
+The **-g** is an _optional_ flag used to signify that we want to install this package globally so that any project can use it. Check the command line to ensure that there are no error messages. Type in the following in the command line:
+```
+	gulp -v
+```
+
+## 6. Bower - The Package Manager for the Web
 Bower [http://bower.io](http://bower.io) is a package manager for the web. It offers a generic, unopinionated solution to the problem of front-end package management, while exposing the package dependency model via an API that can be consumed by a more opinionated build stack. There are no system wide dependencies, no dependencies are shared between different apps, and the dependency tree is flat.
 
 Bower is THE Package Manager to have if you want to manage installation dependencies for web development components, like AngulaJs, jQuery, etc.
@@ -91,7 +112,22 @@ Install Bower through `npm` as follows:
 
 	sudo npm install -g bower
 
-## 6. Web Font Load
+## 7. Sass - Stylesheet Language
+
+Open up Terminal and type in the following:
+```
+	gem install sass
+```
+Hit Enter/Return and wait for Sass to be installed. If you get an error message, then you will need to use the `sudo` command to install the Sass gem, as follows: `sudo gem install sass`
+
+Ensure that Sass is installed by running the following in the command line: 
+```
+	sass -v
+```
+
+You should see something similar to `Sass 3.4.19 (Selective Steve)`.
+
+## 8. Web Font Load
 
 - Easily install ALL of [Google's Web Fonts](https://www.google.com/fonts) using the command line below. Learn more about this command on [qrpike's GitHub](https://github.com/qrpike/Web-Font-Load) in your terminal:
 ```
@@ -102,6 +138,30 @@ Install Bower through `npm` as follows:
 
 # Desktop Applications
 
+### Text Editor
+- [Atom Text Editor](https://atom.io/) is a modern text editor that works across operating systems, has a built-in package manager, and helps you write code faster with smart autocompletion.
+
+### Atom Text Editor Packages (optional but highly recommended)
+- [Atom Beautify](https://atom.io/packages/atom-beautify) - Cleans up the formatting of HTML, CSS, JavaScript, etc. code in Atom.
+
+- [Linter](https://atom.io/packages/linter) - Allows you to easily visualize errors and other messages.
+
+- [Linter Tidy](https://atom.io/packages/linter-tidy) - Will 'lint' your `.html` opened files in Atom.
+
+- CSS Color Pickers
+	- [Web Box Color](https://atom.io/packages/webbox-color) - Simple CSS color viewer.
+	- [Color Picker](https://atom.io/packages/color-picker) - Another color viewer; reads HEX, RGB, RGBa, among others and is able to convert between formats.
+
+- Git
+	- [Git Blame](https://atom.io/packages/git-blame) - Annotations for files.
+	- [Git Context](https://atom.io/packages/tualo-git-context) - Adds basic Git commands to the file tree menu.
+	- [Git History](https://atom.io/packages/git-history) - View previous versions of any file known to Git.
+	- [Git Log](https://atom.io/packages/git-log) - Shows a graph of your Git commits and other commit related information.
+
+- [Terminal Panel](https://atom.io/packages/terminal-panel) - Executes your commands and displays the output.
+	- Install httpster (simple local static development server) `npm install -g httpster`
+	- Choose the port `$ httpster -p (number here, e.g. 8800)`
+	- Reload Atom and enable LiveReload on Chrome Browser
 
 ###  Apps
 - [Sketch App](http://bohemiancoding.com/sketch/) by Bohemian Coding
@@ -143,27 +203,6 @@ Expecting team recommendations, please [post your suggestions here](https://gith
 ###  Prototyping Tools
 Expecting team recommendations, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
 
-### Atom Text Editor Packages (optional but recommended)
-- [Atom Beautify](https://atom.io/packages/atom-beautify) - Cleans up the formatting of HTML, CSS, JavaScript, etc. code in Atom.
-
-- [Linter](https://atom.io/packages/linter) - Allows you to easily visualize errors and other messages.
-
-- [Linter Tidy](https://atom.io/packages/linter-tidy) - Will 'lint' your `.html` opened files in Atom.
-
-- CSS Color Pickers
-	- [Web Box Color](https://atom.io/packages/webbox-color) - Simple CSS color viewer.
-	- [Color Picker](https://atom.io/packages/color-picker) - Another color viewer; reads HEX, RGB, RGBa, among others and is able to convert between formats.
-
-- Git
-	- [Git Blame](https://atom.io/packages/git-blame) - Annotations for files.
-	- [Git Context](https://atom.io/packages/tualo-git-context) - Adds basic Git commands to the file tree menu.
-	- [Git History](https://atom.io/packages/git-history) - View previous versions of any file known to Git.
-	- [Git Log](https://atom.io/packages/git-log) - Shows a graph of your Git commits and other commit related information.
-
-- [Terminal Panel](https://atom.io/packages/terminal-panel) - Executes your commands and displays the output.
-	- Install httpster (simple local static development server) `npm install -g httpster`
-	- Choose the port `$ httpster -p (number here, e.g. 8800)`
-	- Reload Atom and enable LiveReload on Chrome Browser
 
 ---
 #### Not the End... more to come for sure.
