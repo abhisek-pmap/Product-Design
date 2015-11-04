@@ -1,7 +1,9 @@
 # Design Team
 Design Team Sandbox including Tools, Tricks, Gists, Markdowns, etc.
 
-These are the directions for setting up the dev environment for those who are using Mac computers. If you are using a Windows computer, refer to the README file [here](https://github.com/ProcessMAP/Design-Team/blob/master/windows-setup.md).
+These are the directions for setting up the dev environment for those who are using **Mac computers**. 
+
+**If you are using a Windows computer, refer to the README file [here](https://github.com/ProcessMAP/Design-Team/blob/master/windows-setup.md).**
 
 >#### Important Note:
 > If you haven't done so, please create a new github account with your username ending with "**-pmap**", e.g., "jsmith-pmap", so we can invite you to collaborate in our repositories.
