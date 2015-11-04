@@ -1,6 +1,6 @@
 # Design Team
 Design Team Sandbox including Tools, Tricks, Gists, Markdowns, etc.
-These are the directions for setting up the dev environment for those who are using Windows-based computers.
+These are the directions for setting up the dev environment for those who are using **Windows-based computers**.
 
 >#### Important Note:
 > If you haven't done so, please create a new GitHub account with your username ending with "**-pmap**", e.g., "jsmith-pmap", so we can invite you to collaborate in our repositories.
@@ -120,7 +120,11 @@ Install Bower through `npm` as follows:
 
 ## 7. Sass - Stylesheet Language
 
-In order to install Sass (a Ruby gem), you need to first install Ruby on Windows [here](http://rubyinstaller.org/). **When going through the installation wizard, select only the middle option to 'Add Ruby executables to your PATH'**. Otherwise, you will get an error message stating that Ruby is not recognized as an internal or external command when you try to install Sass in the command prompt.
+In order to install Sass (a Ruby gem), you need to first install Ruby on Windows [here](http://rubyinstaller.org/).
+
+Download **Ruby 2.2.3** and press 'I agree' for the License Agreement. 
+
+**When going through the installation wizard, select only the middle option to 'Add Ruby executables to your PATH'**. Otherwise, you will get an error message stating that Ruby is not recognized as an internal or external command when you try to install Sass in the command prompt.
 
 Open up the command prompt (cmd) and type in the following:
 ```
