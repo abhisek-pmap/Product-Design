@@ -146,6 +146,8 @@ You should see something similar to `Sass 3.4.19 (Selective Steve)`.
 ### Atom Text Editor Packages (optional but highly recommended)
 - [Atom Beautify](https://atom.io/packages/atom-beautify) - Cleans up the formatting of HTML, CSS, JavaScript, etc. code in Atom.
 
+- [Jade Beautify](https://atom.io/packages/jade-beautify) - Cleans up the formatting of `.jade` files. 
+
 - [Linter](https://atom.io/packages/linter) - Allows you to easily visualize errors and other messages.
 
 - [Linter Tidy](https://atom.io/packages/linter-tidy) - Will 'lint' your `.html` opened files in Atom.
