@@ -148,7 +148,11 @@ You should see something similar to `Sass 3.4.19 (Selective Steve)`.
 - [Atom Text Editor](https://atom.io/) is a modern text editor that works across operating systems, has a built-in package manager, and helps you write code faster with smart autocompletion.
 
 #### Atom Text Editor Packages (optional but highly recommended)
+You can click on the links to download each package, or go to your settings on Atom and click on 'Install' on the left side and search for each of the packages listed below.
+
 - [Atom Beautify](https://atom.io/packages/atom-beautify) - Cleans up the formatting of HTML, CSS, JavaScript, etc. code in Atom.
+
+- [Jade Beautify](https://atom.io/packages/jade-beautify) - Cleans up the formatting of `.jade` files. 
 
 - [Linter](https://atom.io/packages/linter) - Allows you to easily visualize errors and other messages.
 
