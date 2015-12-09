@@ -1,4 +1,4 @@
-## 1. Install Xcode
+### 1. Install Xcode
 Xcode is Apple's development environment for creating apps. Download it from:
 [http://developer.apple.com/xcode](http://developer.apple.com/xcode)
 

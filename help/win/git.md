@@ -14,6 +14,8 @@ You can install Git by typing in `scoop install git` in Windows PowerShell, or y
 * Ensure that Git is installed by running the following in the command line.
 	 `git version`
 
-### Git links:
+### Git Links:
 
+- [Git](https://git-scm.com/) 
+- [Learn Git](http://try.github.com/)
 - [Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)

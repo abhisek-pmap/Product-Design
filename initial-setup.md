@@ -12,12 +12,31 @@ We encourage you to install the following by yourself - just follow the list - s
 
 [mac]                      | [windows]
 ----------------------------------------|--------------------------
-1. Install Xcode [[link]](help/mac/xcode.md) | 1. Git - Source Control [[link]](help/win/git.md)
-2. Homebrew - OSX Package Manager [[link]](help/mac/brew.md) | 2. Node.Js - Low-level Server Platform [[link]](help/win/node.md)
-3. Git - Source Control [[link]](help/mac/git.md)| 3. Install and config Atom text editor [[link]](help/win/atom.md)
-4. Node.Js - Low-level Server Platform [[link]](help/mac/node.md)|
-5. Install and config Atom text editor [[link]](help/mac/atom.md)|
+1. Install Xcode [[link]](help/mac/xcode.md) | 1. Install PowerShell [[link]](help/win/powershell.md)
+2. Homebrew - OSX Package Manager [[link]](help/mac/brew.md) | 2. Scoop - Package Manager [[link]](help/win/scoop.md)
+3. Git - Source Control [[link]](help/mac/git.md)| 3. Git - Source Control [[link]](help/win/git.md)
+4. Node.Js - Low-level Server Platform [[link]](help/mac/node.md)| 4. Node.Js - Low-level Server Platform [[link]](help/win/node.md)
+5. Install and config Atom text editor [[link]](help/both/atom.md)| 5. Install and config Atom text editor [[link]](help/both/atom.md)
+6. Sass - Stylesheet Language [[link]](help/mac/sass.md) | 6. Sass - Stylesheet Language [[link]](help/win/sass.md)
+7. Web Font Load [[link]](help/mac/webfont.md) | Web Font Load [[link]](help/win/webfont.md)
+- Gulp - JS Task Runner [[link]](help/both/gulp.md)
+- Bower - Package Manager for the Web [[link]](help/both/bower.md)
 ---
+
+### Other Applications
+- [Sketch App](http://bohemiancoding.com/sketch/) by Bohemian Coding
+ - [Learn Sketch](http://bohemiancoding.com/sketch/learn/)
+ - [design+code overview on Sketch](https://designcode.io/sketch)
+ - [Useful Sketch Links](http://bohemiancoding.com/sketch/community/)
+- [Adobe Creative Cloud](http://www.adobe.com)
+- [The Unarchiver](https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12)
+- [Principle](http://principleformac.com) - Principle makes it easy to create animated and interactive user interface designs. Whether you're designing the flow of a multi-screen app, or new interactions and animations, Principle lets you create designs that look and feel amazing.
+- [Slack](https://slack.com/) - a chat platform for internal team communications
+ - [9 Slack Hacks We Couldn't Live Without](https://keen.io/blog/105456820166/9-slack-hacks-we-couldnt-live-without)
+ - [13 cool things you might not know you can do with Slack](http://thenextweb.com/apps/2015/02/05/13-cool-things-might-not-know-can-slack/)
+ - [17 Slack integrations to spice up your team communication](http://wpcurve.com/slack-integrations/)
+
+#### Apps Under Evaluation
 
 ##Exploring and Learning
 1. [Terminal tips](help/explore/terminal.md)
@@ -36,4 +55,4 @@ We encourage you to install the following by yourself - just follow the list - s
 
 ---
 ###  Contact
-If you have any recommendations for the team, please [post your suggestions here](https://github.com/ProcessMAP/Design-Team/issues)
+If you have any recommendations for the team, please [post your suggestions here](https://github.com/ProcessMAP/Product-Design/issues)

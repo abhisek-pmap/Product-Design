@@ -1,4 +1,4 @@
-## 2. Homebrew - Package Manager
+### 2. Homebrew - Package Manager
 Homebrew [http://brew.sh](http://brew.sh) is a package management system that simplifies the installation of software on the Mac OS X operating system.
 
 Homebrew will make the installation process easier.
