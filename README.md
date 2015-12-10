@@ -10,7 +10,7 @@ The list below consists of the essential software apps, plugins and command line
 We encourage you to install the following by yourself - just follow the list - so you get familiar with what the tools you will have at your disposal.
 
 
-[mac]                      | [windows]
+Mac                      | Windows
 ----------------------------------------|--------------------------
 1. Install Xcode [[link]](help/mac/xcode.md) | 1. Install PowerShell [[link]](help/win/powershell.md)
 2. Homebrew - OSX Package Manager [[link]](help/mac/brew.md) | 2. Scoop - Package Manager [[link]](help/win/scoop.md)
@@ -59,4 +59,4 @@ We encourage you to install the following by yourself - just follow the list - s
 
 ---
 ###  Contact
-If you have any recommendations for the team, please [post your suggestions here](https://github.com/ProcessMAP/Product-Design/issues)
+If you have any recommendations for the team, please [post your suggestions here](https://github.com/ProcessMAP/Product-Design/issues).
