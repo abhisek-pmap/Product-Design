@@ -8,6 +8,8 @@ You can click on the links to download each package, or go to your settings on A
 
 - [Jade Beautify](https://atom.io/packages/jade-beautify) - Cleans up the formatting of `.jade` files.
 
+- [Atom Jade](https://atom.io/packages/atom-jade) - Jade language support in Atom.
+
 - [Linter](https://atom.io/packages/linter) - Allows you to easily visualize errors and other messages.
 
 - [Linter Tidy](https://atom.io/packages/linter-tidy) - Will 'lint' your `.html` opened files in Atom.
